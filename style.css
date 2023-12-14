@@ -1,0 +1,111 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+<style>
+
+#header_branding > a {
+color: white !important;
+}
+#BodyContainer > div > div.g960 > div > div.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.no_margin.g960.no_margin > div > div.hp-row.hp_subscribe > div > div > div.widget_header > h5 {
+color: white !important;
+}
+
+
+div.cycle-caption > p > span > big, h5, h1 {
+font-family: 'Handlee', sans-serif !important;
+text-transform: none !important;
+}
+
+div.cycle-caption > p > span > big {
+color: white !important;
+}
+
+
+#BodyContainer > div > div.g960 > div > div.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.no_margin.g960.no_margin > div > div:nth-child(4) > div > div > div.widget_content.index_format > div > div.icon > img {
+width: 200px !important;
+}
+
+
+.widget_content .item .icon img {
+filter: none !important;
+}
+.hp-table .hp-row-first .promo_slider .slider .cycle-caption big, .chabad_updates .widget_header.widget_header h5, [class*=widget-] .widget_header.widget_header h5, .header-title {
+color: #80bf59;
+}
+
+@media (min-width: 1025px) {
+body.cco_body #tabContentMain .co_menu_item span.parent a {
+color: #fe7350 !important;
+}
+}
+
+@media (max-width: 500px) {
+.hp-table .hp-row-first .promo_slider .slider .cycle-caption big {
+    padding-top: 0px !important;
+}
+.hp-table .hp-row-first .promo_slider .slider .cycle-caption {
+top: 40% !important;
+}
+}
+
+@media (max-width: 480px) {
+.hp-table .hp-row-first .promo_slider .slider .slides .slide_wrapper{
+background-position: left bottom !important;
+}
+}
+.hp-table .hp-row-first .promo_slider .slider .slides .slide_wrapper a, .hp-table .hp-row-first .promo_slider .slider .slides .slide_wrapper img {
+background-color: transparent !important;
+}
+
+
+
+</style>
+
+<style type="text/css">
+    /*Makes custom Learning and Inspiration section mobile friendly */
+
+   @media only screen and (max-device-width: 480px) {
+      
+
+        .hp-row {
+            padding: 30px 10px;
+        }
+
+        #BodyContainer>div>div.g960>div>div.no_margin.g960.no_margin>div>div:nth-child(2)>div>div>div>div.header-title {
+            margin: 0px;
+             !important;
+        }
+
+    }
+
+</style>
+
+<!--<style>
+    @media only screen and (min-width: 600px) {
+
+        .chabad_updates .widget_header.widget_header h5,
+        [class*=widget-] .widget_header.widget_header h5 {
+            width: 775px;
+            padding-left: 23%;
+        }
+    }
+
+    .message .wrapper .widget_content.message_format div {
+        max-width: 600px !important;
+    }
+
+</style>
+
+<style type="text/css">-->
+
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+document.getElementsByClassName("home_link")[0].innerHTML = "Our Affiliate Organisations";
+
+document.getElementsByClassName("about_link")[0].innerHTML = "Hamerkaz Shelanu".link('https://www.hamerkazshelanu.com.au'); 
+
+document.getElementsByClassName("contact_link")[0].innerHTML = "Lamdeni".link('https://www.lamdeni.org'); 
+
+});
+</script>
